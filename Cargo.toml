@@ -1,4 +1,10 @@
 [package]
-name = "SigmaOS-apache-kafka"
+name = "sigmaos_apache_kafka"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "SigmaOS apache-kafka component inspired by Linux Mint / Omarchy / Arch Linux."
+
+[lib]
+name = "sigmaos_apache_kafka"
+path = "src/lib.rs"
